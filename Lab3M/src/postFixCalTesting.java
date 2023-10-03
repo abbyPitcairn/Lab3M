@@ -1,7 +1,7 @@
 //Silas Code
 public class postFixCalTesting {
 
- public double precision(IStack stack, IPostFixCal calculator)  {
+ public double precision(IStack stack, IPostFixCal calculator) throws Exception {
      double corResults = 0;
      String postFix1 ="12+3*";
      String postFix2 ="31-5*";
